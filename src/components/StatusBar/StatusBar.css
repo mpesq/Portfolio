@@ -1,0 +1,15 @@
+.status-bar {
+    border-radius: 12px;
+    background: #C4C4C4;
+    width: 348px;
+    height: 9px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.level-indicator {
+    border-radius: 12px;
+    background: #2F80ED;
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+}

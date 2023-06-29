@@ -1,12 +1,12 @@
 import React from "react";
-import "./PersonCard.css"; // or .PersonCard2.css
+import "./PersonCard2.css"; // or .PersonCard2.css
 import yo from "./yo1.jpg";
 
 /**
  * @returns {JSX.Element}
  * @constructor
  */
-const PersonCard = () => {
+const PersonCard2 = () => {
 
     return (
         <div className="card-container">
@@ -26,11 +26,10 @@ const PersonCard = () => {
                 </div>
                 <div className="text-body">
                     <p>Self-motivated developer, who is willing to learn and create outstanding UI applications.</p>
-                    <p>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
                 </div>
             </div>
         </div>
     );
 }
 
-export default PersonCard;
+export default PersonCard2;
