@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+.container-experiences {
+    width: 1046px;
+    height: 329px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+h3 {
+    width: 178px;
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-block-start: 0;
+    margin-block-end: 1rem;
+}
+
+.grid-experiences {
+    display: grid;
+    padding-top: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.experience img {
+    width: 84px;
+    height: 84px;
+}
+
+.experience div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.experience div p {
+    color: #828282;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.experience div h4 {
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.experience div .text {
+    font-size: 16px;
+}

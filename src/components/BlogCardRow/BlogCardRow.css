@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
 
 .blog-card-row-container {
-    width: 395px;
-    height: 588px;
+    width: 1024px;
+    height: 311px;
     border-radius: 12px;
     background: #FFFFFF;
     padding: 1rem 1rem 1rem 1rem;
     display: flex;
-    flex-direction: column;
     gap: 2rem;
 }
 
 .image {
     /*width: 384px;
     height: 267px;*/
+    height: 100%;
     border-radius: 12px;
 
 }
@@ -47,7 +47,7 @@ p {
 }
 
 .button-group {
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
     gap: 2rem;
 }
