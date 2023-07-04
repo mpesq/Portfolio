@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+.container-hobbies {
+    width: 427px;
+    height: 836px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+h3 {
+    width: 178px;
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-block-start: 0;
+    margin-block-end: 1rem;
+}
+
+.grid-hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2.5rem;
+}
+
+.hobby {
+
+}
+
+.hobby img {
+    width: 383px;
+    height: 139px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.hobby div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hobby div p {
+    color: #828282;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hobby div h4 {
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+}
+
+.hobby div .text {
+    font-size: 16px;
+}

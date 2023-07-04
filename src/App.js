@@ -1,11 +1,11 @@
 import './App.css';
-import Hobbies from "./components/Hobbies/Hobbies";
+import Hobbies2 from "./components/Hobbies2/Hobbies2";
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <Hobbies></Hobbies>
+                <Hobbies2></Hobbies2>
             </header>
         </div>
     );
